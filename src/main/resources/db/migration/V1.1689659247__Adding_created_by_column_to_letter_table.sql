@@ -1,0 +1,1 @@
+alter table public.letter add column created_by bigint references public.application_user(id);
